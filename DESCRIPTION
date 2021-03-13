@@ -9,10 +9,10 @@ Description: Provides efficient random access to the contents of
     large zip files by storing cacheing zip offsets in memory. Contents
     can then be read directly to memory.
 License: What license is it under?
-Encoding: UTF-8
-LazyData: true
+URL: https://github.com/jefferis/razip
+BugReports: https://github.com/jefferis/razip/issues
 Suggests: 
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
-URL: https://github.com/jefferis/razip
-BugReports: https://github.com/jefferis/razip/issues
+Encoding: UTF-8
+LazyData: true
