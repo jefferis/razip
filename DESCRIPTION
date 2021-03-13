@@ -1,12 +1,18 @@
-Package: razip
 Type: Package
-Title: Efficient Random Access to R Objects Stored in Large Zip Files
+Package: razip
+Title: Efficient Random Access to R Objects Stored in Large Zip
+    Files
 Version: 0.1.0
 Author: Who wrote it
 Maintainer: The package maintainer <yourself@somewhere.net>
-Description: Provides efficient random access to the contents of large zip files
-    by storing cacheing zip offsets in memory. Contents can then be read 
-    directly to memory.
+Description: Provides efficient random access to the contents of
+    large zip files by storing cacheing zip offsets in memory. Contents
+    can then be read directly to memory.
 License: What license is it under?
 Encoding: UTF-8
 LazyData: true
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+URL: https://github.com/jefferis/razip
+BugReports: https://github.com/jefferis/razip/issues
