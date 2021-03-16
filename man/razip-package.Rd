@@ -4,12 +4,15 @@
 \name{razip-package}
 \alias{razip}
 \alias{razip-package}
-\title{razip: Efficient Random Access to R Objects Stored in Large Zip
+\title{razip: Efficient Random Access to R Objects Stored in Large Zip Files
     Files}
 \description{
-Provides efficient random access to the contents of
-    large zip files by storing cacheing zip offsets in memory. Contents
-    can then be read directly to memory.
+Provides efficient random access to the contents of large zip files
+    by cacheing zip files offsets in memory. Contents can then be read directly
+    to memory, optionally unserialising. The main intended use case is the
+    storage of collections of tens of thousands of serialised R objects into
+    single zip files that may be GB in size while still allowing efficient
+    (order 5ms) read access times.
 }
 \seealso{
 Useful links:
