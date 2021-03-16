@@ -16,7 +16,7 @@ Description: Provides efficient random access to the contents of large zip files
     single zip files that may be GB in size while still allowing efficient
     (order 5ms) read access times.
 License: GPL (>= 3)
-URL: https://github.com/jefferis/razip
+URL: https://jefferis.github.io/razip, https://github.com/jefferis/razip
 BugReports: https://github.com/jefferis/razip/issues
 Imports: 
     R6,
