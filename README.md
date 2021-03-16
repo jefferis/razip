@@ -41,6 +41,6 @@ raz=RAZip$new("~/Desktop/flywire_neurons_flow_FlyWireqs.zip")
 raz
 zl=raz$ziplist()
 bench::mark(s1=raz$get(sample(zl$filename, 1)), check = F)
-bench::mark(s5=raz$met(sample(zl$filename, 5)), check = F)
+bench::mark(s5=raz$mget(sample(zl$filename, 5)), check = F)
 ```
 
